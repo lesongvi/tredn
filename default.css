@@ -1,0 +1,54 @@
+/* Event */
+
+/* Financial Report */
+
+/* Presentation */
+
+.PresentationContainer .PresentationBody, .PresentationLatestContainer .PresentationBody, .PresentationDetailsContainer .PresentationBody
+{
+	display: block;
+}
+
+.PresentationDetailsContainer .PresentationTitle
+{
+	float: left;
+}
+
+.PresentationDetailsContainer .PresentationDate
+{
+	float: right;
+}
+
+/* Press Release */
+.ModulePDFDownload {
+    width: 18px;height: 18px;
+    display: inline-table;
+    margin-bottom: -3px;
+    background: url('/images/pdf_img.gif') no-repeat;
+}
+
+/* Rss */
+
+.RssLinkTopContainer, .RssLinkBottomContainer
+{
+	width: auto;
+	float: right;
+}
+
+.RssLinkTop, .RssLinkBottom
+{	
+	text-decoration: none;
+} 
+
+.RssIcon
+{
+	border: 0;
+	padding: 0 5px 0 5px;
+	vertical-align: text-bottom;
+}
+
+/* Share This */
+.ShareThisContainer
+{
+	padding: 7px 5px 7px 5px;
+}
