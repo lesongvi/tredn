@@ -1,0 +1,7 @@
+.RegulatoryFilingContainer .DownloadContainerInner .ItemHref a[href*=".pdf"], .RegulatoryFilingContainer .DownloadContainerInnerÂ .ItemHref a[href*=".PDF"] {
+    background: none;
+}
+
+.annual-meeting .view a.XBRL {
+    background-image: linear-gradient(transparent, transparent), url(https://s21.q4cdn.com/399680738/files/icons/icon-zip.png);
+}
