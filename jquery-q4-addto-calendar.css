@@ -1,0 +1,220 @@
+/*
+    Font Icons
+    ==========================================================================
+    ## Font Awesome
+    Copyright (C) 2012 by Dave Gandy
+    Author:    Dave Gandy
+    License:   SIL ()
+    Homepage:  http://fortawesome.github.com/Font-Awesome/
+
+    ## Zocial
+    Copyright (C) 2012 by Sam Collins
+    Author:    Sam Collins
+    License:   MIT (http://opensource.org/licenses/mit-license.php)
+    Homepage:  http://zocial.smcllns.com/
+*/
+@font-face {
+    font-family: 'q4-atc';
+    src: url('../fonts/q4-atc.eot?95787427');
+    src: url('../fonts/q4-atc.eot?95787427#iefix') format('embedded-opentype'),
+    url('../fonts/q4-atc.woff?95787427') format('woff'),
+    url('../fonts/q4-atc.ttf?95787427') format('truetype'),
+    url('../fonts/q4-atc.svg?95787427#q4-atc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="atc-"]:before, [class*=" atc-"]:before {
+    font-family: "q4-atc";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
+.atc-google:before { content: '\e800'; }
+.atc-apple:before { content: '\e801'; }
+.atc-outlook:before { content: '\e802'; margin-left: -0.05em; }
+.atc-ics:before { content: '\e803'; }
+
+/*
+    Q4 Add to Calendar Styles
+    ==========================================================================
+*/
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.q4-atc-wrapper,
+.q4-atc-wrapper *,
+.q4-atc-wrapper *:before,
+.q4-atc-wrapper *:after {
+    box-sizing: border-box;
+}
+
+.q4-atc-wrapper {
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+
+.q4-atc-wrapper .q4-atc-outer {
+    position: absolute;
+    color: #5e5e5e;
+    padding: 6px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MERCODlDMDM0ODBCMTFFNDk3MEZCNEREQTMzN0Q2MUEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MERCODlDMDQ0ODBCMTFFNDk3MEZCNEREQTMzN0Q2MUEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowREI4OUMwMTQ4MEIxMUU0OTcwRkI0RERBMzM3RDYxQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowREI4OUMwMjQ4MEIxMUU0OTcwRkI0RERBMzM3RDYxQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pq97TvUAAAAbSURBVHjaYqlr6uBnIAEwMZAIRjWMFA0AAQYAyGsBsnwm7OoAAAAASUVORK5CYII=') repeat;
+    background: rgba(126, 130, 136, .06);
+    font-size: 14px;
+    width: 330px;
+    z-index: 800;
+}
+
+.q4-atc-wrapper .q4-atc-inner {
+    background-color: #fff;
+    padding: 35px 0;
+    text-align: center;
+    position: relative;
+}
+
+.q4-atc-wrapper .q4-atc-inner-details {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.q4-atc-wrapper .q4-atc-button {
+    cursor: pointer;
+}
+
+.q4-atc-wrapper .q4-atc-title {
+    padding-bottom: 20px;
+    padding-left: 3px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.q4-atc-wrapper .q4-atc-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.q4-atc-wrapper .q4-atc-links li {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+.q4-atc-wrapper .q4-atc-links a {
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    background-color: rgba(126, 130, 136, .06);
+
+
+    color: #7e8288;
+    text-decoration: none;
+}
+
+.q4-atc-wrapper .q4-atc-links li a:before {
+    font-family: "q4-atc";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
+
+.q4-atc-wrapper .q4-atc-links li.apple a:before {
+    content: '\e801';
+    font-size: 1.6em;
+    line-height: 2.6em;
+}
+
+.q4-atc-wrapper .q4-atc-links li.google a:before {
+    content: '\e800';
+    font-size: 1.8em;
+    line-height: 2.5em;
+}
+
+.q4-atc-wrapper .q4-atc-links li.outlook a:before {
+    content: '\e802';
+    margin-left: -0.05em;
+    font-size: 1.5em;
+    line-height: 2.9em;
+}
+
+.q4-atc-wrapper .q4-atc-links li.ics a:before {
+    content: '\e803';
+    font-size: 1.6em;
+    line-height: 2.6em;
+}
+
+.q4-atc-tooltip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+}
+
+.q4-atc-tooltip-text {
+    display: inline-block;
+    width: 100%;
+    background: rgba(126, 130, 136, .06);
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+/*
+    Media Queries
+    ==========================================================================
+*/
+
+@media (max-width: 400px) {
+    .q4-atc-outer {
+        width: 250px;
+    }
+
+    .q4-atc-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
