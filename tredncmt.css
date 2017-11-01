@@ -1,0 +1,105 @@
+.khung-new {    text-align: center;
+    padding: 20px;}
+    .vk-container {max-width:1000px;margin:auto;
+        font-size: 11px;background:#fff;padding:20px;
+        line-height: 17px;
+        color: black;
+        font-family: Helvetica, Arial, sans-serif;
+        text-decoration: none;
+    }
+    
+    .vk-container a {
+        text-decoration: none;
+    }
+    
+    .vk-container a:hover {
+        text-decoration: none;
+    }
+    
+    .vk-link {
+        text-decoration: none ! important;
+        cursor: default ! important;
+    }
+    
+    .vk-header {
+        background: none repeat scroll 0 0 rgb(218, 226, 232);
+        padding: 4px 4px 4px 6px;
+        margin-bottom: 10px;
+    }
+    
+    .vk-logo {
+        width: 16px;
+        height: 16px;
+        float: right;
+        margin-top: -1px;
+        background-size: 100% 100%;
+    }
+    
+    .vk-header-text {
+        padding: 2px 3px 1px;
+        line-height: 100%;
+        color: rgb(69, 104, 142);
+        font-weight: bold;
+    }
+    
+    .vk-avatar img {
+        float: left;
+        margin-right: 10px;
+        width: 48px;
+    }
+    
+    .vk-comment,
+    .vk-comment-load {
+        margin-bottom: 15px;
+        position: relative;
+        border-bottom: 1px solid rgb(218, 225, 232);
+        padding-bottom: 15px;
+    }
+    
+    .vk-comment:last-child {
+        border-bottom: 0 none;
+    }
+    
+    .vk-comment-name {
+        color: rgb(43, 88, 122);
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    .vk-comment-text {
+        margin-left: 60px;
+    }
+    
+    .vk-comment-date {
+        margin-left: 60px;
+        color: rgb(153, 153, 153);
+    }
+    
+    .vk-comment-like {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: 19px;
+        height: 16px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .vk-comment-like-count {
+        padding: 3px 0;
+        padding-left: 20px;
+        font-weight: bold;
+        color: rgb(114, 149, 178);
+        font-size: 10px;
+        text-decoration: none;
+        background: url('//st.acstnst.com/content/Thu_Ha_Blog_Titan_Gel_VN_New/img/thumb.png') no-repeat left center;
+    }
+    
+    .vk-comment-answer {
+        color: rgb(43, 88, 122);
+        text-decoration: none;
+    }
+	@media(max-width:768px){
+		.hotline a{font-size:30px !important;}
+	}
