@@ -651,7 +651,7 @@ a:visited {
 .Lh\(32px\) {
     line-height: 32px
 }
-.ua-ie7 .ua-ie7_Lh\(34px\) {
+.ua-ie7.ua-ie7_Lh\(34px\) {
     line-height: 34px
 }
 .Lh\(2\.8\) {
@@ -869,7 +869,7 @@ a:visited {
 .Mstart\(40px\) {
     margin-left: 40px
 }
-.yucs .yucs_Mstart\(12px\) {
+.yucs.yucs_Mstart\(12px\) {
     margin-left: 12px
 }
 .Mstart\(-20px\) {
@@ -1190,7 +1190,7 @@ a:visited {
 .Pend\(30px\) {
     padding-right: 30px
 }
-.yucs-clear-padding .yucs-clear-padding_Pend\(35px\) {
+.yucs-clear-padding.yucs-clear-padding_Pend\(35px\) {
     padding-right: 35px
 }
 .Pend\(1px\) {
@@ -1258,7 +1258,7 @@ a:visited {
 .yucs-trigger:hover .yucs-trigger\:h_Td\(u\) {
     text-decoration: underline
 }
-.yucs-trigger:hover .yucs-trigger\:h_Td\(n\) {
+.yucs-trigger:hover.yucs-trigger\:h_Td\(n\) {
     text-decoration: none
 }
 .Ti\(-20em\) {
@@ -5020,7 +5020,7 @@ html[lang="zh-Hant-HK"] #ya-answer-tab .qHead {
 #Stencil .Answers .CheckBox input+#Stencil .Answers .CheckBox-Icon-checked {
     display: none
 }
-#Stencil .Answers .CheckBox input:focus ~ .Icon {
+#Stencil .Answers .CheckBox input:focus~.Icon {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6)
 }
 #Stencil .Answers .CheckBox input:checked+#Stencil .Answers .CheckBox-Icon-checked {
